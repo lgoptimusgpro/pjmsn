@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>Contact</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">	
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- fevicon -->
+<link rel="icon" href="images/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+</head>
+<body>
+	<!--header section start -->
+	<div class="header_section">
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="journal.html">JOURNAL</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="article.html">ARTICLES</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="webinar.html">WEBINAR</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="instruction.html">INSTRUCTIONS TO AUTHOR</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+		</div>
+	</div>
+	<!--header section end -->
+	<!--contact section start -->
+    <div class="contact_section layout_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="contact_text">Connect with Us</h1>
+                    <p class="lorem_text"><em>Feel free to reach out using the form below.</em></p>
+                    <div class="contact_main">
+                      <form onsubmit="sendEmail(); resetForm(); return false;">
+                        <div class="mail_section">
+                          <input type="text" id="name" class="mail_text" placeholder="Name" name="Name">
+                          <input type="email" id="email" class="mail_text" placeholder="Email" name="Email">
+                          <input type="text" id="phone" class="mail_text" placeholder="Phone" name="Phone">
+                          <select id="position" name="Position">
+                            <option value="volvo">Select position</option>
+                            <option value="Student">Student</option>
+                            <option value="Teacher">Teacher</option>
+                            <option value="Other">Other</option>
+                          </select>
+                          <textarea class="massage_text" placeholder="Message" rows="5" id="message" name="text"></textarea>
+                          <button type="submit">Submit</button>
+                        </div>
+                      </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p><br><br><br><br></p>
+                    <p class="contact_text_1">Dr. Derrick Yu</p>
+                    <p class="contact_text_2">DLSU CENSER - Materials Science Unit Head<br>email: derrick.yu@dlsu.edu.ph</p>
+                    <br>
+                    <p class="contact_text_1">Dr. Gil Nonato Santos</p>
+                    <p class="contact_text_2">Solid State Physics Research Laboratory - Head<br>email: gil.santos@dlsu.edu.ph</p>
+                    <br>
+                    <p class="contact_text_1">Ms. Gwen Castillon</p>
+                    <p class="contact_text_2">Solid State Physics Research Laboratory - Research Assistant/Reviewer<br>email: gwen.castillon@dlsu.edu.ph</p>
+                    <br>
+                    <p class="contact_text_1">Mr. Raymund Olarve</p>
+                    <p class="contact_text_2">Solid State Physics Research Laboratory - Research Assistant/WebDeveloper<br>email: raymund.olarve@dlsu.edu.ph</p>
+                    <br>
+                    <p class="contact_text_2">Philippine Journal of Materials Science and Nanotechnology <br>De La Salle University<br>2401 Taft Avenue, Manila, Philippines<br>Telephone: (02) 524-4611 local: 423<br>email: pjomsan@gmail.com</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--contact section end -->
+	<!--footer section start -->
+	<div class="footer_section layout_padding">
+		<div class="container">
+			<!-- <div class="footer_main">
+				<div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <span class="input-group-text" id="basic-addon2">subscribe Now</span>
+                    </div>
+                </div>
+                <h1 class="year_text">2020</h1>
+                <h1 class="landing_text">Free Multipurpose Responsive  Landing Page </h1>
+			</div> -->
+			<!--<div class="social_icon">
+				<ul>
+					<li><a href="#"><img src="images/fb-icon.png"></a></li>
+					<li><a href="#"><img src="images/twitter-icon.png"></a></li>
+					<li><a href="#"><img src="images/linkdin-icon.png"></a></li>
+					<li><a href="#"><img src="images/instagram-icon.png"></a></li>
+					<li><a href="#"><img src="images/youtub-icon.png"></a></li>
+				</ul>
+			</div> -->
+		</div>
+	</div>
+	<!--footer section end -->
+	<!--copyright section start -->
+	<div class="copyright_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="copyright_text">2023 All Rights Reserved by <a href="https://www.pjmsn.org/"> PJMSN</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	 <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- javascript --> 
+    <script src="js/owl.carousel.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail() {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var phone = document.getElementById("phone").value;
+        var positionElement = document.getElementById("position");
+        var position = positionElement.options[positionElement.selectedIndex].text;
+        var message = document.getElementById("message").value;
+
+        var emailBody = "A new message was submitted from www.pjmsn.org contact form.<br><br>";
+        emailBody += "<strong>Here are the details:</strong><br><br>";
+        emailBody += "<strong>Name:</strong> " + name + "<br>";
+        emailBody += "<strong>Email:</strong> " + email + "<br>";
+        emailBody += "<strong>Phone:</strong> " + phone + "<br>";
+        emailBody += "<strong>Position:</strong> " + position + "<br>";
+        emailBody += "<strong>Message:</strong> " + message;
+
+        Email.send({
+          SecureToken: "CD838805230C9F440556F90F3D944489AC9A", // Elastic Email API key
+          To: "pjomsan@gmail.com",
+          From: "websitecontactform6@gmail.com", // Use a valid sender email address
+          Subject: "PJMSN Contact Form Submission",
+          Body: emailBody,
+          Host: "smtp.elasticemail.com",
+          Port: 2525,
+          Username: "websitecontactform6@gmail.com",
+          Password: "CD838805230C9F440556F90F3D944489AC9A", // Elastic Email API key
+          EnableSsl: true,
+        }).then(function (message) {
+          if (message === "OK") {
+            alert("Your message was sent to our PJMSN staff. Thank you!");
+          } else {
+            alert("An error occurred while sending the message. Please try again later.");
+          }
+        });
+      }
+
+      function resetForm() {
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("phone").value = "";
+        document.getElementById("position").value = "volvo"; // Set default position
+        document.getElementById("message").value = "";
+      }
+    </script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+        });
+    </script>
+
+</body>
+</html>
